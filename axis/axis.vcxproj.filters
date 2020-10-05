@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="axis">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="axis\axis">
+      <UniqueIdentifier>{0d2ddf68-5904-4942-a549-4cc7e96e5619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\modules">
+      <UniqueIdentifier>{475ca959-f042-4651-a086-3cb76df767c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\modules\velocity">
+      <UniqueIdentifier>{ff486f3e-8557-4c00-9f2e-ce9bd34149c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\pscanner">
+      <UniqueIdentifier>{a71f9dce-0689-4e45-b3e5-55a5ba449d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\wrappers">
+      <UniqueIdentifier>{b7659a62-4b85-4fdf-92ce-43d008afe3fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\class_list">
+      <UniqueIdentifier>{a0eed418-f34e-4fe9-bea1-dc49f8cf25da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\class_list\player">
+      <UniqueIdentifier>{1cd0316e-026a-4861-8476-ac8265940eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\class_list\minecraft">
+      <UniqueIdentifier>{5fb99ebd-a556-4f5d-ada0-d7bb32d55b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\class_list\world">
+      <UniqueIdentifier>{64158764-b304-4ed6-a9ef-e8f98cdc4d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\modules\aim">
+      <UniqueIdentifier>{298dade2-fd88-47b4-9f97-09bcf87048c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\class_list\_vec3">
+      <UniqueIdentifier>{25d6d76d-078b-4539-91f6-03f87a20d43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axis\modules\aclicker">
+      <UniqueIdentifier>{986d0143-7243-498e-bf3d-897233b818da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="axis\axis.cpp">
+      <Filter>axis\axis</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\velocity\velocity.cpp">
+      <Filter>axis\modules\velocity</Filter>
+    </ClCompile>
+    <ClCompile Include="pscanner\scanner.cpp">
+      <Filter>axis\pscanner</Filter>
+    </ClCompile>
+    <ClCompile Include="wrappers\wrappers.cpp">
+      <Filter>axis\wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="class_list\minecraft\minecraft.cpp">
+      <Filter>axis\class_list\minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="class_list\player\player.cpp">
+      <Filter>axis\class_list\player</Filter>
+    </ClCompile>
+    <ClCompile Include="class_list\world\world.cpp">
+      <Filter>axis\class_list\world</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\aim\aim.cpp">
+      <Filter>axis\modules\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\aclicker\aclicker.cpp">
+      <Filter>axis\modules\aclicker</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="axis\axis.h">
+      <Filter>axis\axis</Filter>
+    </ClInclude>
+    <ClInclude Include="pscanner\scanner.h">
+      <Filter>axis\pscanner</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\modules.h">
+      <Filter>axis\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="class_list\minecraft\minecraft.h">
+      <Filter>axis\class_list\minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="class_list\player\player.h">
+      <Filter>axis\class_list\player</Filter>
+    </ClInclude>
+    <ClInclude Include="class_list\world\world.h">
+      <Filter>axis\class_list\world</Filter>
+    </ClInclude>
+    <ClInclude Include="class_list\_vec3\vec3.h">
+      <Filter>axis\class_list\_vec3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
