@@ -1,8 +1,9 @@
+#pragma once
 
-#include "../../axis/axis.h"
+#include <vector>
 
 namespace scanner {
 
-	extern size_t pattern(size_t min, size_t max, std::vector<int> pattern);
+    size_t pattern(size_t min, size_t max, const std::vector<int>& pattern);
 
-}
+} 
